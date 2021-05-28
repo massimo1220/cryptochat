@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`deleteConversationMenu should match the snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#121716",
+      "borderColor": "#6E8F76",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 150,
+      "justifyContent": "space-evenly",
+      "left": "50%",
+      "marginLeft": -150,
+      "marginTop": -200,
+      "position": "absolute",
+      "top": "50%",
+      "width": 300,
+      "zIndex": 5,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#6E8F76",
+        "fontSize": 24,
+      }
+    }
+  >
+    Delete Conversation?
+  </Text>
+  <View
+    style={
+      Object {
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-evenly",
+        "width": "90%",
+      }
+    }
+  >
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[MockFunction]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#6E8F76",
+          "borderRadius": 6,
+          "display": "flex",
+          "height": 35,
+          "justifyContent": "center",
+          "width": "40%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#121716",
+            "fontSize": 20,
+          }
+        }
+      >
+        Yes
+      </Text>
+    </TouchableOpacity>
+    <TouchableOpacity
+      activeOpacity={0.2}
+      onPress={[MockFunction]}
+      style={
+        Object {
+          "alignItems": "center",
+          "borderColor": "#6E8F76",
+          "borderRadius": 6,
+          "borderWidth": 1,
+          "display": "flex",
+          "height": 35,
+          "justifyContent": "center",
+          "width": "40%",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#6E8F76",
+            "fontSize": 20,
+          }
+        }
+      >
+        No
+      </Text>
+    </TouchableOpacity>
+  </View>
+</View>
+`;

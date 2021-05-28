@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "black",
+      "height": 133.4,
+      "marginTop": 42,
+      "width": 750,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+      }
+    }
+  >
+    Lightning Messenger
+  </Text>
+</View>
+`;

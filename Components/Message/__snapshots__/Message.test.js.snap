@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Message should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#6E8F76",
+      "borderColor": "#abababeb",
+      "borderRadius": 25,
+      "borderWidth": 1,
+      "display": "flex",
+      "marginLeft": 10,
+      "marginTop": 15,
+      "paddingBottom": 5,
+      "width": 675,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "black",
+        "fontSize": 18,
+        "padding": 5,
+      }
+    }
+  >
+    test message
+  </Text>
+  <Text
+    style={
+      Object {
+        "alignSelf": "flex-end",
+        "color": "black",
+        "fontSize": 12,
+        "marginRight": 20,
+      }
+    }
+  >
+    8:37 PM
+  </Text>
+</View>
+`;

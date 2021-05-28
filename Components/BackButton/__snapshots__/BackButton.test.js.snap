@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackButton should m atch the snapshot 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": "100%",
+      "justifyContent": "center",
+      "width": "10%",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 30,
+        "width": 30,
+      }
+    }
+  />
+</TouchableOpacity>
+`;

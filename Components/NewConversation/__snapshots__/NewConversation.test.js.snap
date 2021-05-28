@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewConversation should match the snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#14272E",
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#121716",
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 133.4,
+        "padding": 10,
+        "paddingTop": 20,
+        "position": "absolute",
+        "width": "100%",
+        "zIndex": 5,
+      }
+    }
+  >
+    <BackButton
+      close={[Function]}
+    />
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 36,
+        "marginTop": 40,
+      }
+    }
+  >
+    To
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Email"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "white",
+        "fontSize": 20,
+        "height": 50,
+        "marginVertical": 20,
+        "textAlign": "center",
+        "width": 600,
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <TouchableOpacity
+    activeOpacity={0.2}
+    onPress={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#121716",
+        "borderColor": "#6E8F76",
+        "borderRadius": 6,
+        "borderWidth": 1,
+        "color": "#6E8F76",
+        "display": "flex",
+        "height": 50,
+        "justifyContent": "center",
+        "width": 375,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 20,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Start Conversation
+    </Text>
+  </TouchableOpacity>
+</View>
+`;

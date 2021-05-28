@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignoutIconButton should match snapshot 1`] = `
+<TouchableOpacity
+  activeOpacity={0.2}
+  onPress={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "height": 106.72,
+      "justifyContent": "center",
+      "marginRight": 10,
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Object {
+        "height": 30,
+        "width": 30,
+      }
+    }
+  />
+</TouchableOpacity>
+`;

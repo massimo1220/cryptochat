@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should match snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#14272E",
+      "flex": 1,
+      "justifyContent": "flex-start",
+      "paddingTop": 20,
+    }
+  }
+>
+  <StatusBar
+    animated={false}
+    barStyle="light-content"
+    showHideTransition="fade"
+  />
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 40,
+        "marginVertical": 10,
+      }
+    }
+  >
+    Login
+  </Text>
+  <KeyboardAvoidingView
+    enabled={true}
+    keyboardVerticalOffset={0}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "height": 400,
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Email"
+      rejectResponderTermination={true}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 4,
+          "fontSize": 24,
+          "height": 60,
+          "marginVertical": 10,
+          "maxWidth": 400,
+          "textAlign": "center",
+          "width": 675,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Password"
+      rejectResponderTermination={true}
+      secureTextEntry={true}
+      style={
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 4,
+          "fontSize": 24,
+          "height": 60,
+          "marginVertical": 10,
+          "maxWidth": 400,
+          "textAlign": "center",
+          "width": 675,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <View
+      style={
+        Object {
+          "width": 600,
+        }
+      }
+    >
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#121716",
+            "borderColor": "#6E8F76",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "display": "flex",
+            "height": 50,
+            "justifyContent": "center",
+            "marginTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#6E8F76",
+              "fontSize": 24,
+            }
+          }
+        >
+          Login
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#121716",
+            "borderColor": "#6E8F76",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "display": "flex",
+            "height": 50,
+            "justifyContent": "center",
+            "marginTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#6E8F76",
+              "fontSize": 24,
+            }
+          }
+        >
+          Join
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        activeOpacity={0.2}
+        onPress={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#121716",
+            "borderColor": "#6E8F76",
+            "borderRadius": 4,
+            "borderWidth": 1,
+            "display": "flex",
+            "height": 50,
+            "justifyContent": "center",
+            "marginTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#6E8F76",
+              "fontSize": 24,
+            }
+          }
+        >
+          Reset Password
+        </Text>
+      </TouchableOpacity>
+    </View>
+  </KeyboardAvoidingView>
+  <ActivityIndicator
+    animating={false}
+    color="#6E8F76"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+        "top": "30%",
+        "zIndex": 5,
+      }
+    }
+  />
+</View>
+`;

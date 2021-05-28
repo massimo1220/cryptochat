@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "cryptochat",
+    "slug": "cryptochat",
+    "privacy": "public",
+    "sdkVersion": "41.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#222222"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "sourceExts": [ "js", "json", "ts", "tsx", "jsx", "vue"]
+    },
+    "ios": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-6134453091807474~6770296366"
+      },
+      "supportsTablet": true,
+      "bundleIdentifier": "com.applabstudio.cryptochat",
+      "buildNumber": "1.1.0"
+    },
+    "android": {
+      "package": "com.applab.cryptochat",
+      "versionCode": 2
+    }
+  }
+}
