@@ -3,7 +3,6 @@
     "name": "cryptochat",
     "slug": "cryptochat",
     "privacy": "public",
-    "sdkVersion": "41.0.0",
     "platforms": [
       "ios",
       "android",
@@ -24,7 +23,14 @@
       "**/*"
     ],
     "packagerOpts": {
-      "sourceExts": [ "js", "json", "ts", "tsx", "jsx", "vue"]
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "jsx",
+        "vue"
+      ]
     },
     "ios": {
       "config": {
